@@ -1,0 +1,31 @@
+name: cinelib
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  cached_network_image: ^3.3.1
+  carousel_slider: ^4.2.1
+  cupertino_icons: ^1.0.6
+  dartz: ^0.10.1
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.0
+  http: ^1.2.1
+  intl: ^0.19.0
+  lottie: ^3.1.0
+  shared_preferences: ^2.2.3
+  webview_flutter: ^4.7.0
+  webview_flutter_android: ^3.16.0
+  youtube_player_flutter: ^8.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
